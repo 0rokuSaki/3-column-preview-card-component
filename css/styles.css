@@ -1,0 +1,106 @@
+html, body {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  height: 100%;
+}
+
+/* Main Section */
+#main-section {
+  height: 95%;
+}
+
+.card {
+  border-style: none;
+}
+
+.wrapper-sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.wrapper-suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.wrapper-luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.card-sedans, .card-suvs, .card-luxury {
+  border: 0;
+}
+
+.card-img-top {
+  width: 64px;
+  height: auto;
+}
+
+.card-title {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 3rem;
+}
+
+.card-text {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.btn-sedans, .btn-suvs, .btn-luxury {
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 32px;
+  min-width: 128px;
+  min-height: 48px;
+  max-height: 64px;
+  width: 60%;
+  height: 15%;
+}
+
+.btn-sedans {
+  color: hsl(31, 77%, 52%);
+}
+
+.btn-suvs {
+  color: hsl(184, 100%, 22%);
+}
+
+.btn-luxury {
+  color: hsl(179, 100%, 13%);
+}
+
+/* Attribution Section */
+#attribution-section {
+  height: 5%;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Desktop Adjustments */
+@media(min-width: 992px) {
+  .wrapper-sedans {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .wrapper-luxury {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}
+
+/* Mobile Adjustments */
+@media(max-width: 992px) {
+  .wrapper-sedans {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .wrapper-luxury {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}
